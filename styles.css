@@ -70,7 +70,7 @@
 .goal {
     padding-top: 50px;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 35px;
     text-transform: uppercase;
     background-color: #FFFFFF;
     color: #023C22;
@@ -86,8 +86,7 @@
 }
 .image{ 
     margin-top:125px;
-    margin-left:-13px;
-    
+    margin-left:-13px;   
 }
 
 .img {
