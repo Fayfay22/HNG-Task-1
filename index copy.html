@@ -1,0 +1,575 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrueClean Services</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+
+  <!-- Google Fonts: Poppins (main), Open Sans (for footer), Outfit (for ad), Josefin (if used in branding) -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    crossorigin="anonymous" />
+
+  <!-- Custom CSS -->
+  <link href="styles.css" rel="stylesheet" />
+
+  <!-- Bootstrap JS Bundle (with Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</head>
+
+
+
+</head>
+
+<html>
+  <body>
+    <!-- Responsive Navbar with Offcanvas Start -->
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="TrueClean Logo" class="img-fluid logo" />
+        </a>
+
+        <!-- Hamburger Icon for Mobile -->
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#mobileMenu"
+          aria-controls="mobileMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Desktop Menu -->
+        <div
+          class="collapse navbar-collapse justify-content-center d-none d-lg-flex"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Offcanvas Mobile Menu -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="mobileMenu"
+      aria-labelledby="mobileMenuLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="mobileMenuLabel">Menu</h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Responsive Navbar with Offcanvas End -->
+
+    <!--Header mobile End-->
+
+    <div class="image-container">
+      <div class="image-overlay"></div>
+      <div class="">
+        <h1 class="hero-text">Clean solutions for every space</h1>
+        <div class="hero-text2">
+          At TrueClean Services, we deliver reliable, detail-focused cleaning
+          for homes and businesses, <br />creating spotless spaces that promote
+          comfort, health, and peace of mind.
+        </div>
+      </div>
+    </div>
+
+    <!--Services Section Start-->
+
+    <div class="container text-center">
+      <div class="row row-cols-1">
+        <div class="col service-head">- What we do -</div>
+        <div class="col service-head2">Check out our Professional services</div>
+      </div>
+    </div>
+
+    <section class="service-section">
+      <!-- Service 1 -->
+      <div class="service-row">
+        <div class="service-text">
+          <h3>Residential Cleaning</h3>
+          <ul>
+            <li>Room-to-room cleaning</li>
+            <li>Surface dusting</li>
+            <li>Bathroom sanitization</li>
+            <li>Kitchen deep-clean</li>
+            <li>Trash removal</li>
+          </ul>
+        </div>
+        <div class="service-image">
+          <img
+            src="img/residential cleaning.jpg"
+            alt="Residential Cleaning"
+          />
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="service-row">
+        <div class="service-image">
+          <img
+            src="img/End of Tenancy Cleaning.jpg"
+            alt="End of Tenancy Cleaning"
+          />
+        </div>
+
+        <div class="service-text">
+          <h3>End of Tenancy Cleaning</h3>
+          <ul>
+            <li>Full property sanitation</li>
+            <li>Carpet vacuuming</li>
+            <li>Window polishing</li>
+            <li>Stain removal</li>
+            <li>Appliance deep-clean</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="service-row">
+        <div class="service-text">
+          <h3>Holiday / Airbnb Cleaning</h3>
+          <ul>
+            <li>Fresh bed linens</li>
+            <li>Toilet and bath restock</li>
+            <li>Quick turnarounds</li>
+            <li>Spotless presentation</li>
+            <li>Fridge and oven wipes</li>
+          </ul>
+        </div>
+        <div class="service-image">
+          <img src="img/airbnb cleaning.jpg" alt="Airbnb Cleaning" />
+        </div>
+      </div>
+
+
+      <div class="service-row">
+        <div class="service-image">
+          <img src="img/deep cleaning.jpg" alt="Deep Cleaning" />
+        </div>
+
+        <div class="service-text">
+          <h3>Deep Cleaning</h3>
+          <ul>
+            <li>Scrubbing tiles & grout</li>
+            <li>Inside cabinets</li>
+            <li>Under furniture</li>
+            <li>Detailed disinfection</li>
+            <li>Baseboard cleaning</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="service-row">
+        <div class="service-text">
+          <h3>Office Cleaning</h3>
+          <ul>
+            <li>Desk sanitation</li>
+            <li>Trash disposal</li>
+            <li>Restroom upkeep</li>
+            <li>Breakroom cleaning</li>
+            <li>Weekly deep-cleans</li>
+          </ul>
+        </div>
+        <div class="service-image">
+          <img src="img/office cleaning.jpg" alt="Office Cleaning" />
+        </div>
+      </div>
+
+      <div class="service-row">
+        <div class="service-image">
+          <img src="img/Appliances Cleaning.jpg" alt="Appliances Cleaning" />
+        </div>
+        <div class="service-text">
+          <h3>Oven and Appliances Cleaning</h3>
+          <ul>
+            <li>Grease removal</li>
+            <li>Stovetop polish</li>
+            <li>Microwave clean-up</li>
+            <li>Fridge interior clean</li>
+            <li>Shiny finish guaranteed</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="service-row">
+        <div class="service-text">
+          <h3>Carpet and Upholstery Cleaning</h3>
+          <ul>
+            <li>Steam treatment</li>
+            <li>Odor removal</li>
+            <li>Pet stain clean</li>
+            <li>Fabric-safe agents</li>
+            <li>Quick drying</li>
+          </ul>
+        </div>
+        <div class="service-image">
+          <img src="img/carpet cleaning.jpg" alt="Carpet Cleaning" />
+        </div>
+      </div>
+
+      <div class="service-row">
+        <div class="service-text">
+          <h3>Driveway and Patio Cleaning</h3>
+          <ul>
+            <li>Jet pressure wash</li>
+            <li>Moss removal</li>
+            <li>Stain elimination</li>
+            <li>Surface sealing</li>
+            <li>Oil spill cleanup</li>
+          </ul>
+        </div>
+        <div class="service-image">
+          <img src="img/Driveway Cleaning.jpg" alt="Driveway Cleaning" />
+        </div>
+      </div>
+
+      <div class="service-row">
+        <div class="service-image">
+          <img
+            src="img/post construction cleaning.png"
+            alt="Post-construction Cleaning"
+          />
+        </div>
+
+        <div class="service-text">
+          <h3>Post-construction Cleaning</h3>
+          <ul>
+            <li>Dust clearing</li>
+            <li>Debris disposal</li>
+            <li>Paint spot removal</li>
+            <li>Air vent wipe-down</li>
+            <li>Final polish touch</li>
+          </ul>
+          </ul>
+        </div>
+      </div>
+
+      <div class="service-row">
+        <div class="service-text">
+          <h3>General Cleaning</h3>
+          <ul>
+            <li>Weekly upkeep</li>
+            <li>Quick tidy-ups</li>
+            <li>Surfaces wiped</li>
+            <li>Floors mopped</li>
+            <li>Restrooms freshened</li>
+          </ul>
+        </div>
+        <div class="service-image">
+          <img src="img/general cleaning.jpg" alt="General Cleaning" />
+        </div>
+      </div>
+    </section>
+
+    <!--Services Section end-->
+
+    <!--Ad Section Start-->
+
+    <div class="ad-image-container">
+      <div class="ad-image-overlay"></div>
+      <div class="ad-text">
+       We are the  <span class="mobile-break"></span> Clean Solutions
+    
+        For Every Space
+      </div>
+    </div>
+
+    <!--Ad Section end-->
+
+    <!--Reasons Section Start-->
+
+    <section class="reasons-section">
+      <div class="reasons-wrapper">
+        <h5 class="reasons-subtitle">- Reasons -</h5>
+        <h2 class="reasons-title">Reasons to Love TrueClean Services</h2>
+        <p class="reasons-description">
+          We’re more than just a cleaning service, we bring a touch of magic to
+          every home.
+        </p>
+      </div>
+    </section>
+
+    <section class="reasons-boxed">
+      <div class="reason-item">
+        <h3>Exceptional Attention to Detail</h3>
+        <p>
+          We don’t just clean... we care. Every inch of your space gets the
+          deep, detailed attention it deserves.
+        </p>
+      </div>
+      <div class="reason-item">
+        <h3>Reliable, Friendly Professionals</h3>
+        <p>
+          Count on our trained, background-checked team to show up on time, in
+          uniform, and with a smile.
+        </p>
+      </div>
+      <div class="reason-item">
+        <h3>Tailored Cleaning for Your Lifestyle</h3>
+        <p>
+          From guest-ready homes to spotless Airbnbs, our services adapt to your
+          needs not the other way around.
+        </p>
+      </div>
+    </section>
+
+    <!--Reasons Section end-->
+
+     <!--Why Section start-->
+<div class="why-section-bg">
+  <div class="next-ad">
+    <h1>A Team You Can Trust</h1>
+    <p>
+      We earn your trust through consistency, clear communication, and quality
+      service. 
+    </p>
+  </div>
+
+  <!--Why Section start-->
+  <div class="why-section">
+    <div class="text-content">
+      <h2>Glasgow’s Most Trusted Cleaning Service</h2>
+      <p>
+        At TrueClean, we understand that your home is your sanctuary and it
+        deserves more than a rushed clean or surface wipe. That’s why families
+        and professionals across Glasgow choose us to keep their spaces
+        spotless, fresh, and stress-free.
+      </p>
+      <a href="#booking" class="btn-book">Book a Cleaning</a>
+    </div>
+    <img src="img/cleaning company3.jpg" alt="Cleaning service image" />
+  </div>
+
+  <div class="why-section">
+    <img src="img/cleaning company3.jpg" alt="Cleaning service image" />
+    <div class="text-content">
+      <h2>Here’s what sets us apart</h2>
+      <p>
+        At TrueClean, we don’t cut corners, we clean them. From skirting
+        boards to hidden spots, every part of your home gets detailed care.
+        Our trusted team is punctual, professional, and friendly. Whether it’s
+        a one-time clean or regular visits, we work around your schedule to
+        keep your space spotless.
+      </p>
+      <a href="#booking" class="btn-book">Book a Cleaning</a>
+    </div>
+  </div>
+  <!--Why Section end-->
+
+    <!--Faq Section start-->
+    <section class="faq-section">
+      <div class="faq-header">
+        <h2>- Frequently Asked Questions -</h2>
+        <p>
+          Got questions? We’ve got answers. Send us an email at
+          <a href="">hello@truecleanservices.co.uk</a>
+        </p>
+      </div>
+
+      <div class="faq-grid">
+        <div class="faq-item">
+          <div class="faq-bullet"></div>
+          <div class="faq-content">
+            <h3>What areas do you cover?</h3>
+            <p>
+              We provide cleaning services across Glasgow and surrounding areas.
+              Contact us to confirm your location.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-bullet"></div>
+          <div class="faq-content">
+            <h3>Do I need to provide cleaning supplies?</h3>
+            <p>
+              No, we come fully equipped with eco-friendly products and tools to
+              clean your home thoroughly.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-bullet"></div>
+          <div class="faq-content">
+            <h3>Can I book a recurring clean?</h3>
+            <p>
+              Yes! You can schedule weekly, biweekly, or monthly cleans to suit
+              your lifestyle and needs.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-bullet"></div>
+          <div class="faq-content">
+            <h3>How do I make a booking?</h3>
+            <p>
+              You can book directly through our website or by emailing us at
+              hello@truecleanservices.co.uk. We’ll respond promptly.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-bullet"></div>
+          <div class="faq-content">
+            <h3>What if I need to cancel or reschedule?</h3>
+            <p>
+              No problem. We just ask for 24 hours' notice so we can adjust our
+              schedule accordingly. No fees apply for timely changes.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-bullet"></div>
+          <div class="faq-content">
+            <h3>Are your cleaners background-checked?</h3>
+            <p>
+              Yes, all our cleaners are thoroughly vetted and trained to deliver
+              professional and trustworthy service.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Faq Section end-->
+
+<!--Contact Section Start-->
+    <section class="contact-section">
+  <p class="contact-subtitle">- Contact Us -</p>
+  <h2 class="contact-title">Customer satisfaction is our top priority<br>Don’t hesitate to contact us</h2>
+
+  <div class="contact-cards">
+    <div class="contact-card">
+      <i class="fas fa-mobile-alt"></i>
+      <h4>Call Us</h4>
+      <p>07578512579</p>
+    </div>
+    <div class="contact-card">
+      <i class="fas fa-envelope"></i>
+      <h4>Support</h4>
+      <p>hello@truecleanservices.co.uk</p>
+    </div>
+    <div class="contact-card">
+      <i class="fas fa-map-marker-alt"></i>
+      <h4>Address</h4>
+      <p>72, Wallstreet, NY 20110</p>
+    </div>
+    <div class="contact-card">
+      <i class="fas fa-link"></i>
+      <h4>Website</h4>
+      <p>www.truecleanservices.co.uk</p>
+    </div>
+  </div>
+</section>
+<!--Contact Section end-->
+
+<!--Footer Section Start-->
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Logo / Brand -->
+    <div class="footer-column footer-brand">
+      <h2> <img src="img/footer-logo.png" alt="TrueClean Logo" class="img-fluid logo" /></h2>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <ul>
+        <li>Email: hello@truecleanservices.co.uk</li>
+        <li>Phone: +447578512579</li>
+        <li>Address: 72, Wallstreet, NY</li>
+      </ul>
+    </div>
+
+    <!-- Socials -->
+    <div class="footer-column footer-socials">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="footer-bottom">
+    <p>&copy; 2025 TrueClean. All rights reserved.</p>
+  </div>
+</footer>
+<!--Footer Section Start-->
+
+<!--Fab Section Start-->
+<div class="fab-container">
+  <div class="fab-main" onclick="toggleFab()">
+  <i class="fas fa-comment-dots"></i>
+</div> 
+
+  <ul class="fab-options">
+    <li><a href="tel:+447578512579" title="Call"><i class="fas fa-phone"></i></a></li>
+    <li><a href="https://wa.me/2340000000000" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
+    <li><a href="mailto:hello@truecleanservices.co.uk" title="Email"><i class="fas fa-envelope"></i></a></li>
+  </ul>
+</div>
+<!--Fab Section End-->
+
+<script>
+  function toggleFab() {
+    document.querySelector('.fab-options').classList.toggle('show');
+  }
+</script>
+
+
+  </body>
+</html>
